@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Search
+		</title>
+	</head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<body ng-app="myApp" ng-controller="myCtrl">
+		<div class="container main">
+			<div class="header">	
+				<div class="input-group form">
+					<span class="input-group-addon">
+						<i class="glyphicon glyphicon-search"></i>
+					</span>	
+					<input class="form-control" placeholder="Search" ng-model="search"/>
+				</div>	
+			</div>
+			<div class="content">
+				<div ng-repeat="x in records | filter:search">
+					<img ng-src="images/{{x.img}}.png" alt="logo of {{x.img}}"/>
+					<span class="description">{{x.desc}}</span>
+					<hr>	
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="controller.js"></script>
+</html>

@@ -1,0 +1,46 @@
+
+.header{
+	
+	margin:0 auto;
+	margin-top:10px;
+	height:100px;
+	width:900px;
+	color:72888F;
+	background-color:#56B2D1;
+	}
+.form{
+	width: 90%;
+	height: 25%;
+	top: 25%;
+	margin: 0 auto;
+	position: relative;
+	}
+.input-group-addon{
+	width:20px;
+	background-color: #F5F9FA;
+	border:0 !important;
+	}
+input{
+	background-color:#F5F9FA !important;
+	border:0 !important;
+	}
+
+.content{
+	margin: 0 auto;
+	color: #72888F;
+	height:500px;
+	width:900px;
+	padding-left:50px;
+	padding-top:50px;
+	}
+img{
+	height:60px;
+	width:60px;
+	}
+.description{
+	font-size:30px;
+	padding-left:10px;
+	}
+
+
+
